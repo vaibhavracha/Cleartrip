@@ -98,13 +98,6 @@ public class BanToHyd {
 		Selenium.waitForPageLoaded();
 		driver.findElement(By.xpath("(//button[contains(@class,'all button')])[2]")).click();
 		Selenium.waitForPageLoaded();
-		//driver.navigate().refresh();
-	//	WebElement Closepopup = driver.findElement(By.xpath("//*[@class=' c-pointer c-neutral-900']"));
-		//js.executeScript("arguments[0].click();", Closepopup);
-		//driver.findElement(By.xpath("//a[@data-test-attrib='cleartrip-logo']")).click();
-	//	Selenium.fluentWait(Closepopup);
-	//	WebDriverWait wait = new WebDriverWait(driver, 300);
-	//	wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//a[@data-test-attrib='cleartrip-logo']")));
 		Set<String> handles = driver.getWindowHandles();
 	    String currentHandle = driver.getWindowHandle();
 	    for (String handle : handles) {
