@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Booking for Ban to Hyd]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="tests(failed)">
+    <classes>
+      <class name="ClearTrip.FlightBooking.TC_Flight">
+        <methods>
+          <include name="BookingFlight"/>
+        </methods>
+      </class> <!-- ClearTrip.FlightBooking.TC_Flight -->
+    </classes>
+  </test> <!-- tests(failed) -->
+</suite> <!-- Failed suite [Booking for Ban to Hyd] -->
